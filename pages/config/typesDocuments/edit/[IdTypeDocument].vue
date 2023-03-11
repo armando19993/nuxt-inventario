@@ -17,7 +17,7 @@ const getData = async() => {
   const { data } = await ServiceGet('/type-documents/'+IdTypeDocument.value)
 
   dataPage.value = data.value.data
-  type.value = dataPage.value.type
+  type.value = dataPage.value.Type
 }
 
 getData()

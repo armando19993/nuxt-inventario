@@ -51,7 +51,7 @@ getData()
                   <tbody>
                     <tr v-for="type in dataPage" :key="type.id">
                       <th scope="row">{{ type.id }}</th>
-                      <td>{{ type.type }}</td>
+                      <td>{{ type.Type }}</td>
                       <td>
                         <button class="btn btn-info" @click="edit(type.id)"><i class="fa fa-edit"></i></button>
                       </td>
