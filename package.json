@@ -13,12 +13,17 @@
     "@nuxtjs/color-mode": "^3.2.0",
     "@popperjs/core": "^2.11.6",
     "apexcharts": "^3.36.3",
+    "axios": "^1.3.4",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.2",
     "feather-icons": "^4.29.0",
+    "sweetalert2": "^11.7.3",
     "vue3-apexcharts": "^1.4.1"
   },
   "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/google-fonts": "^3.0.0-1",
     "@pinia/nuxt": "^0.4.6",
     "@types/bootstrap": "^5.2.6",
